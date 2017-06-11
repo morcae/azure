@@ -1,0 +1,9 @@
+__author__
+bottle
+inspect
+sqlite3
+PluginError
+__license__
+Plugin
+SQLitePlugin
+__version__

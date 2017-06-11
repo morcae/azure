@@ -1,0 +1,2 @@
+C:\Users\Lena\documents\visual studio 2017\Projects\expertclassification\expertclassification\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Lena\documents\visual studio 2017\Projects\expertclassification\expertclassification\bin\wfastcgi.py

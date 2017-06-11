@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>877a7761-be4f-4c50-9ae5-477e8de41e77</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{e614c764-6d9e-4607-9337-b7073809a0bd};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>app.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <PythonDebugWebServerCommandArguments>--debug $(CommandLineArguments)</PythonDebugWebServerCommandArguments>
+    <SuppressCollectPythonCloudServiceFiles>false</SuppressCollectPythonCloudServiceFiles>
+    <Name>expertclassification</Name>
+    <RootNamespace>expertclassification</RootNamespace>
+    <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app.py" />
+    <Compile Include="routes.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\" />
+    <Folder Include="static\content\" />
+    <Folder Include="static\experts\" />
+    <Folder Include="static\fonts\" />
+    <Folder Include="static\scripts\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="classification.db" />
+    <Content Include="requirements.txt" />
+    <Content Include="static\content\bootstrap.css" />
+    <Content Include="static\content\bootstrap.min.css" />
+    <Content Include="static\content\site.css" />
+    <Content Include="static\experts\1.wav" />
+    <Content Include="static\experts\10.wav" />
+    <Content Include="static\experts\11.wav" />
+    <Content Include="static\experts\12.wav" />
+    <Content Include="static\experts\13.wav" />
+    <Content Include="static\experts\14.wav" />
+    <Content Include="static\experts\15.wav" />
+    <Content Include="static\experts\16.wav" />
+    <Content Include="static\experts\17.wav" />
+    <Content Include="static\experts\18.wav" />
+    <Content Include="static\experts\19.wav" />
+    <Content Include="static\experts\2.wav" />
+    <Content Include="static\experts\20.wav" />
+    <Content Include="static\experts\21.wav" />
+    <Content Include="static\experts\22.wav" />
+    <Content Include="static\experts\23.wav" />
+    <Content Include="static\experts\24.wav" />
+    <Content Include="static\experts\25.wav" />
+    <Content Include="static\experts\26.wav" />
+    <Content Include="static\experts\27.wav" />
+    <Content Include="static\experts\28.wav" />
+    <Content Include="static\experts\29.wav" />
+    <Content Include="static\experts\3.wav" />
+    <Content Include="static\experts\30.wav" />
+    <Content Include="static\experts\31.wav" />
+    <Content Include="static\experts\32.wav" />
+    <Content Include="static\experts\33.wav" />
+    <Content Include="static\experts\34.wav" />
+    <Content Include="static\experts\35.wav" />
+    <Content Include="static\experts\36.wav" />
+    <Content Include="static\experts\37.wav" />
+    <Content Include="static\experts\38.wav" />
+    <Content Include="static\experts\39.wav" />
+    <Content Include="static\experts\4.wav" />
+    <Content Include="static\experts\40.wav" />
+    <Content Include="static\experts\41.wav" />
+    <Content Include="static\experts\42.wav" />
+    <Content Include="static\experts\43.wav" />
+    <Content Include="static\experts\44.wav" />
+    <Content Include="static\experts\45.wav" />
+    <Content Include="static\experts\46.wav" />
+    <Content Include="static\experts\47.wav" />
+    <Content Include="static\experts\48.wav" />
+    <Content Include="static\experts\49.wav" />
+    <Content Include="static\experts\5.wav" />
+    <Content Include="static\experts\50.wav" />
+    <Content Include="static\experts\51.wav" />
+    <Content Include="static\experts\52.wav" />
+    <Content Include="static\experts\53.wav" />
+    <Content Include="static\experts\54.wav" />
+    <Content Include="static\experts\55.wav" />
+    <Content Include="static\experts\56.wav" />
+    <Content Include="static\experts\57.wav" />
+    <Content Include="static\experts\58.wav" />
+    <Content Include="static\experts\59.wav" />
+    <Content Include="static\experts\6.wav" />
+    <Content Include="static\experts\60.wav" />
+    <Content Include="static\experts\61.wav" />
+    <Content Include="static\experts\62.wav" />
+    <Content Include="static\experts\63.wav" />
+    <Content Include="static\experts\64.wav" />
+    <Content Include="static\experts\65.wav" />
+    <Content Include="static\experts\66.wav" />
+    <Content Include="static\experts\67.wav" />
+    <Content Include="static\experts\68.wav" />
+    <Content Include="static\experts\69.wav" />
+    <Content Include="static\experts\7.wav" />
+    <Content Include="static\experts\70.wav" />
+    <Content Include="static\experts\71.wav" />
+    <Content Include="static\experts\72.wav" />
+    <Content Include="static\experts\73.wav" />
+    <Content Include="static\experts\74.wav" />
+    <Content Include="static\experts\75.wav" />
+    <Content Include="static\experts\76.wav" />
+    <Content Include="static\experts\77.wav" />
+    <Content Include="static\experts\78.wav" />
+    <Content Include="static\experts\79.wav" />
+    <Content Include="static\experts\8.wav" />
+    <Content Include="static\experts\80.wav" />
+    <Content Include="static\experts\9.wav" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\scripts\bootstrap.js" />
+    <Content Include="static\scripts\bootstrap.min.js" />
+    <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="static\scripts\jquery-1.10.2.js" />
+    <Content Include="static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="static\scripts\jquery.validate.js" />
+    <Content Include="static\scripts\jquery.validate.min.js" />
+    <Content Include="static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="static\scripts\modernizr-2.6.2.js" />
+    <Content Include="static\scripts\respond.js" />
+    <Content Include="static\scripts\respond.min.js" />
+    <Content Include="static\scripts\_references.js" />
+    <Content Include="views\about.tpl" />
+    <Content Include="views\contact.tpl" />
+    <Content Include="views\index.tpl" />
+    <Content Include="views\layout.tpl" />
+    <Content Include="views\player.tpl" />
+    <Content Include="views\second.tpl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env2\">
+      <Id>env2</Id>
+      <Version>2.7</Version>
+      <Description>env2 (Python 2.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
